@@ -26,6 +26,7 @@ public class MyCollector {
                             return newCartRow.getRowPrice();
                         })
                         .reduce(BigDecimal.ZERO, (a, b) -> a.add(b));
+        System.out.println("tralala");
 
 
 
